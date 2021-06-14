@@ -1,0 +1,176 @@
+header {
+    width: 64px;
+    height: 28px;
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "sans-serif", "System Default", serif;
+    color: #0f34ff;
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-weight: 500;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+h4 {
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "sans-serif", serif;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    position: absolute; 
+    left: 270px;
+    top: 15px;
+}
+.profile-image {
+    border-radius: 50%;
+    width: 116px;
+    height: 112px;
+    object-fit: cover;
+    position: absolute;
+    top: 110px;
+    left: 130px;
+}
+.nav-image {
+    border-radius: 50%;
+    width: 30px;
+    height: 29px;
+    object-fit: cover;
+    position: absolute;
+    top: 30px;
+    left: 325px;  
+}
+.image-name {
+    width: 129px;
+    height: 26px;
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "sans-serif", "System Default", serif;
+    color: #1c1c1c;
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 1.1;
+    font-weight: 500; 
+    position: absolute;  
+    top: 225px;
+    left: 120px;
+}
+.profile-info {
+    width: 298px;
+    height: 86px;
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "sans-serif", serif;
+    color: #4d4d4d;
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 1.2; 
+    position: absolute;  
+    top: 270px;
+    left: 40px; 
+}
+.profile-link {
+    width: 58px;
+    height: 12px;
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "sans-serif", serif;
+    color: #6e62c9;
+    font-size: 11px;
+    letter-spacing: 0px;
+    line-height: 1.1; 
+    text-decoration: none; 
+    position: absolute;
+    top: 345px;
+    left: 150px;   
+}
+.SPQR-team {
+    width: 133px;
+    height: 28px;
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "sans-serif", serif;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 1.2; 
+    position: absolute;
+    top: 10px;
+    left: 120px;  
+}
+.Max-img {
+    width: 48px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 24px;
+    position: absolute;
+    bottom: 30px;
+    left: 55px;   
+}
+.SPQR-team-names1 {
+    width: 119px;
+    height: 22px;
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "sans-serif", serif;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 1.1; 
+    position: absolute;
+    bottom: 42px;
+    left: 110px;   
+}
+.Joan-img {
+    width: 48px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 24px;
+    position: absolute;
+    bottom: 30px;
+    left: 240px;   
+}
+.SPQR-team-names2 {
+    width: 117px;
+    height: 22px;
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "sans-serif", serif;
+    color: #1c1c1c;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 1.1; 
+    position: absolute;
+    bottom: 42px;
+    left: 295px; 
+}
+.swipe {
+    width: 26px;
+    height: 23px;
+    object-fit: cover;
+    overflow: hidden;
+    opacity: 0.18;
+    position: absolute;  
+    left: 17px;
+    bottom: 41.5px;  
+}
+.SPQR {
+    width: 375px;
+    height: 124px;
+    overflow: visible;
+    background-color: #feeb45;
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.25); 
+    position: absolute;
+    top: 395px; 
+    right: 1px; 
+}
+.button {
+    width: 150px;
+    height: 46px;
+    overflow: visible;
+    border-radius: 7px;
+    border: 2px solid #0099ff; 
+    position: absolute;
+    left: 110px;
+    bottom: 40px; 
+}
+.button-logout {
+    width: 66px;
+    height: 19px;
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "sans-serif", serif;
+    color: #0099ff;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 0px;
+    line-height: 1.1;
+    position: absolute;
+    left: 40px;
+    bottom: 15px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static '/css/profile.css' %}">
+    <title>SPQR Point</title>
+</head>
+<body>
+    <nav>
+        <header>SPQR</header>
+        <h4>Home</h4>
+        <img src="images/images-1.jpg" class="nav-image">
+    </nav>
+    <section>
+        <img src="{% static 'images/images-1.jpg' %}" class="profile-image">
+        <h2 class="image-name">Zoey Clarke</h2>
+        <p class="profile-info">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Veritatis dignissimos saepe nesciunt? Tempora inventore iure hic quibusdam. 
+            Laboriosam quisquam atque quas a ratione. Corporis, fuga!
+        </p>
+        <a class="profile-link" href="#">Edit profile</a>
+    </section>
+    <section class="SPQR">
+        <div class="SPQR-team">SPQR Team</div>
+        <img src="src/images.jpg" class="Max-img">
+        <div class="SPQR-team-names1">Max Richman</div>
+        <img src="src/images-2.jpg" class="Joan-img">
+        <div class="SPQR-team-names2">Joan Ben</div>
+        <img src="src/back.png" class="swipe">
+    </section>
+    <section class="button">
+        <a class="button-logout" href="#">Log Out</a>
+    </section>
+    
+</body>
+</html>

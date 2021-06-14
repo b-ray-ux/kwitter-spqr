@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static '/css/signup.css' %}">
+    <title>SPQR Point</title>
+</head>
+<body>
+    <h4>Kwitter</h4>
+    {% if message %}
+        <ul>
+            {% for message in messages %}
+            <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <section class="yellow-box2">
+        <div class="logo-signup">
+            <div class="logo-signup1">SPQR</div>
+            <div class="logo-signup2">Point</div>
+        </div>
+        {% if messages %}
+                <section class='messages'>
+                    {% for message in messages %}
+                    <h3 {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</h3>
+                    {% endfor %}
+                </section>
+                {% endif %}
+        <form action="/register/" method = 'POST'>
+            {% csrf_token %}
+            <input class="first_name" type="text" name="first_name" placeholder="First Name">
+            <input class="last_name" type="text" name="last_name" placeholder="Last Name">
+            <input class="email" type="text" name="email" placeholder="email">
+            <input class="password" type="password" name="password" placeholder="Password">
+            <input class="confirm_password" type="password" name="confirm_password" placeholder="Confirm Password">
+            <button class="signup-btn">Sign up</button>
+        </form>
+        <a class="login-link" href="/enter/">Already have an account? Login</a>
+    </section>
+</body>
+</html>

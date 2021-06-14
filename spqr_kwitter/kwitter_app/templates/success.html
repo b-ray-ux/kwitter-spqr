@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <header>SPQR</header>
+        <h4>Home</h4>
+        <img src="images/images-1.jpg" class="nav-image">
+    </nav>
+    <div class="wrapper">
+        <h1>Success! Welcome {{user.first_name}}</h1>
+        {% if request.session.user_id %}
+        <p class='green'>Successfully registered</p>
+        <p class='yellow'>Click here to edit profile</p>
+        <a href="{% url 'edit' %}">Edit Profile</a>
+        {% endif %}
+        <a href="/logout">Log Out</a>
+    </div>
+</body>
+</html>

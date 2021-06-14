@@ -1,0 +1,226 @@
+body {
+    background-color: #ffd500;
+}
+h4 {
+    width: 74px;
+    height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-signup {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+@media (min-width: 320px) and (max-width: 483px) {
+    .logo-signup {
+        position: relative;
+        left: 41%;
+        transform: translateX(-54%);
+        text-align: center;
+    }
+}
+.logo-signup1 {
+width: 239px;
+height: 57px;
+font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "sans-serif", "System Default", serif;
+color: #0f34ff;
+font-size: 48px;
+letter-spacing: 0px;
+line-height: 1.2;
+font-weight: 500;
+/* position: relative;
+top: 49px;
+left: 60px;*/
+}
+.logo-signup2 {
+width: 239px;
+height: 57px;
+font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "sans-serif", "System Default", serif;
+color: #ffffff;
+font-size: 48px;
+letter-spacing: 0px;
+line-height: 1.2;
+font-weight: 500;
+/* position: relative;
+bottom: 10px;
+left: 195px; */
+}
+input {
+    max-width: 207px;
+    height: 44px;
+    overflow: visible;
+    background-color: #ffffff;
+    border: none;
+    font-size: 20px;
+    
+    /* position: relative;
+    left: 50px;
+    top: 10px; */
+    margin: 20px;
+    display: block;
+    align-items: center;
+}
+button {
+    width: 176px;
+    height: 48px;
+    overflow: visible;
+    background-color: #0f34ff;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 10px;
+}
+a {
+    width: 400px;
+    height: 73px;
+    letter-spacing: 0px;
+    line-height: 1.1;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /*position: relative;
+    top: 100px;
+    right: 70px; */
+}
+/*@media (min-width: 410px) {
+    body {
+        background-color: #ffd500;  
+    } 
+    .yellow-box2 {
+        width: 564px;
+        height: 523px;
+        overflow: visible;
+        background-color: #ffd500;
+    } 
+    h4 {
+        width: 74px;
+        height: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        color: #ffffff;
+        font-size: 24px;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        /* position: relative;
+        top: 20px;
+        left: 10px; 
+    }
+    .logo-signup {
+        /*position: relative;
+        bottom: 10px;
+        left: 100px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    } 
+    /*.name-input {
+        position: relative;
+        left: 160px;
+    }
+    .username-input2 {
+        position: relative;
+        left: 160px;
+        top: 10px;
+        margin: 20px;
+    }
+    .password-input2 {
+        position: relative;
+        left: 160px;
+        top: 10px;
+        margin: 20px;  
+    }
+    .password-repeat {
+        position: relative;
+        left: 160px;
+        top: 10px;
+        margin: 20px;  
+    }
+    .signup-btn {
+        position: relative;
+        top: 120px;
+        left: -40px;   
+    }
+    .login-link {
+        position: relative;
+        top: 190px;
+        left: 180px;  
+    }
+} */
+@media (min-width: 484px) {
+    body {
+        background-color: white;  
+    }  
+    .yellow-box2 {
+        max-width: 564px;
+        height: 598px;
+        overflow: visible;
+        background-color: #ffd500;
+        margin: 0 auto;
+        filter: blur(0px);
+        box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    h4 {
+        width: 74px;
+        height: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        color: #bdc9d2;
+        font-size: 24px;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*position: relative;
+        top: 20px;
+        left: 60px;*/
+    }
+    /* .name-input {
+        position: relative;
+        left: 160px;
+    }
+    .username-input2 {
+        position: relative;
+        left: -95px;
+        top: 90px;
+        margin: 20px;
+    }
+    .password-input2 {
+        position: relative;
+        left: 160px;
+        top: 80px;
+        margin: 20px;  
+    }
+    .password-repeat {
+        position: relative;
+        left: -95px;
+        top: 160px;
+        margin: 20px;  
+    }
+    .signup-btn {
+        position: relative;
+        top: 170px;
+        left: 215px;   
+    }  
+    .login-link {
+        position: relative;
+        top: 220px;
+        left: 40px;  
+    }  */
+}
