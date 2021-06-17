@@ -1,5 +1,4 @@
 from django.http import HttpResponseRedirect
-from django.http.response import HttpResponse
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from .models import Document, User, UserManager
@@ -75,7 +74,7 @@ def edit(request):
             docfile=request.FILES['docfile'],
         )
         newdoc.save()
-        return HttpResponseRedirect('/')
+        return HttpResponseRedirect('/edit/')
     context = {
         'documents': Document.objects.all()
     }
